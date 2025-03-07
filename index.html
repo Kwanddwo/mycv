@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - LEMGHARI Marouane</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer>
+      document.addEventListener("DOMContentLoaded", () => {
+        const lightModeButton = document.getElementById("light-mode-button");
+        lightModeButton.addEventListener("click", () => {
+          document.body.classList.toggle("light-mode");
+          lightModeButton.textContent =
+            lightModeButton.textContent === "Light Mode"
+              ? "Dark Mode"
+              : "Light Mode";
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button id="light-mode-button">Dark Mode</button>
+    <header class="section section--intro">
+      <div class="flex-group wrapper">
+        <div class="headshot-wrapper">
+          <img class="headshot" src="headshot.jpg" alt="LEMGHARI Marouane" />
+        </div>
+        <div class="hook flow">
+          <h1 class="name">LEMGHARI MAROUANE</h1>
+          <h2 class="title">SOFTWARE ENGINEERING STUDENT</h2>
+          <blockquote class="quote">
+            “I am a dedicated first-year Software Engineering student at ENSA
+            Khouribga with a passion for learning new things.Currently seeking
+            opportunities to grow as a developer andcollaborate in impactful
+            environments.”
+          </blockquote>
+        </div>
+      </div>
+    </header>
+    <section class="section section--contact">
+      <div class="wrapper wrapper--narrower flow">
+        <h2 class="section__title">CONTACT</h2>
+        <ul role="list">
+          <li><strong>Email: </strong>marouanelemghari@gmail.com</li>
+          <li><strong>Phone: </strong>+212612689699</li>
+          <li><strong>Adress: </strong>Casablanca, Morocco</li>
+          <li><strong>LinkedIn: </strong>linkedin.com/in/marouane-lemghari</li>
+          <li><strong>Github: </strong>@Kwanddwo</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section--education">
+      <div class="wrapper wrapper--narrower flow">
+        <h2 class="section__title">EDUCATION</h2>
+        <ul role="list">
+          <li>
+            <h4>Software Engineering Diploma - ENSA Khouribga | 2022 - 2027</h4>
+            <ul>
+              <li>Sector: Software Engineering</li>
+            </ul>
+          </li>
+          <li>
+            <h4>Ibn Sina High School - Beni Méllal | 2019 - 2021</h4>
+            <ul>
+              <li>Section: Baccalaureate SM-A</li>
+              <li>Mention: Good</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section--education">
+      <div class="wrapper wrapper--narrower flow">
+        <h2 class="section__title">CERTIFICATES</h2>
+        <ul role="list">
+          <li>
+            <h4>React Foundations | 2025</h4>
+            Frontend Masters
+          </li>
+          <li>
+            <h4>Professional CSS | 2025</h4>
+            Frontend Masters
+          </li>
+          <li>
+            <h4>Data Structures & Algorithms | 2024</h4>
+            Frontend Masters
+          </li>
+          <li>
+            <h4>Introduction To Web Development | 2023</h4>
+            CS50 - Harvard
+          </li>
+          <li>
+            <h4>Introduction To Computer Science | 2022</h4>
+            CS50 - Harvard
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section--experiences">
+      <div class="wrapper wrapper--narrower flow">
+        <h2 class="section__title">INTERNSHIPS</h2>
+        <h4>Internship - Tremau | June 2023 - Aug 2023</h4>
+        Frontend development and E2E Testing with JavaScript
+        <ul>
+          <li>Developed responsive and dynamic user interfaces using React</li>
+          <li>
+            Created detailed test scripts and documentation for E2E workflows,
+            boosting teamproductivity and code quality
+          </li>
+          <li>
+            Conducted thorough end-to-end testing with Cypress, identifying and
+            resolvingbugs pre-deployment
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section--education">
+      <div class="wrapper wrapper--narrower flow">
+        <h2 class="section__title">EXTRA-CURRICULAR</h2>
+        <ul role="list">
+          <li>
+            <h4>Organisation Lead | 2024 - Now</h4>
+            Hult Prize ENSA Khouribga
+          </li>
+          <li>
+            <h4>Media Team member | 2024 - 2025</h4>
+            Open Source Days 13.0
+          </li>
+          <li>
+            <h4>Technical Lead | 2023 - 2024</h4>
+            ARTIGENE Ensa Khouribga
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
