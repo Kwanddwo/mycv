@@ -218,7 +218,7 @@
   }
 
   .wrapper--narrower {
-    --wrapper-padding: 4rem;
+    --wrapper-padding: 1rem;
     @media (width > 760px) {
       --wrapper-padding: 12rem;
       padding-inline-start: 14rem;
